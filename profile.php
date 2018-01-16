@@ -29,7 +29,7 @@
           ?>
           
           <h2><?php //display first name and last name ?></h2>
-          <p><?= //display email ?></p>
+          <p><? //display email ?></p>
           
           <a href="logout.php"><button class="button button-block" name="logout"/>Log Out</button></a>
 
