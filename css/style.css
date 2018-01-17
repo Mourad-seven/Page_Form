@@ -192,9 +192,9 @@ textarea {
 CONTACT FORM CSS
 ********************************/
 body{
-  font-family: "Lato", sans-serif;
-  margin: 70px 0;
-  background: #0069d6;
+  font-family: 'Titillium Web', sans-serif;
+  /*margin: 70px 0;*/
+  background: #ffffff; /* #c1bdba */
 }
 .devider{
   width: 100px;
@@ -207,9 +207,13 @@ body{
   margin-bottom: 60px;
 }
 h2{
-  text-transform: uppercase;
+/*  text-transform: uppercase;
   font-weight: bold;
-  color: #fff;
+  color: #fff;*/
+    text-align: center;
+    color: #1ab188;
+    font-weight: 1000;
+    margin: 0;
 }
 #contact-form{
   font-size: 20px;
