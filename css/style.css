@@ -1,80 +1,16 @@
-body{
-	font-family: "Lato", sans-serif;
-	margin: 70px 0;
-	background: #0069d6;
-}
-.devider{
-	width: 100px;
-	height: 2px;
-	background: #ffa500;
-	margin: 0 auto;
-}
-.heading{
-	text-align: center;
-	margin-bottom: 60px;
-}
-h2{
-	text-transform: uppercase;
-	font-weight: bold;
-	color: #fff;
-}
-#contact-form{
-	font-size: 20px;
-	background: #fff;
-	padding: 40px;
-	border-radius: 10px;
-}
-.blue{
-	color: #0069d6;
-}
-.form-control{
-	height: 50px;
-	font-size: 18px;
-}
-.comments{
-	height: 25px;
-	font-style: italic;
-	font-size: 18px;
-	color: #d82c2e;
-}
-#contact-form input[type=submit]{
-	margin: 40px auto 0;
-	display: block;
-}
-.button1{
-	width: 100%;
-	border: 1px solid #ddd;
-	background: #ffa500;
-	color: #fff;
-	font-weight: bold;
-	text-transform: uppercase;
-	padding: 18px;
-	border-radius: 5px;
-	transition: all 0.3s ease-in 0s;
-}
-.button1:hover{
-	background: #333;
-	border-color: #ffa500;
-}
-.thank-you{
-	text-align: center;
-	margin-top: 15px;
-	font-weight: bold;
-	font-size: 22px;
-}
+/********************************
+INDEX CSS - GENERAL
+********************************/
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
 html {
   overflow-y: scroll;
 }
-
 body {
   background: #ffffff; /* #c1bdba */
   font-family: 'Titillium Web', sans-serif;
 }
-
 a {
   text-decoration: none;
   color: #1ab188;
@@ -84,7 +20,6 @@ a {
 a:hover {
   color: #179b77;
 }
-
 .form {
   background: rgba(19, 35, 47, 0.9); 
   padding: 40px;
@@ -93,7 +28,6 @@ a:hover {
   border-radius: 4px;
   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
 }
-
 .tab-group {
   list-style: none;
   padding: 0;
@@ -126,36 +60,30 @@ a:hover {
   background: #1ab188;
   color: #ffffff;
 }
-
 .tab-content > div:last-child {
   display: none;
 }
-
 h1 {
   text-align: center;
   color: #ffffff;
   font-weight: 300;
   margin: 0 0 40px;
 }
-
 h2 {
     text-align: center;
     color: #1ab188;
     font-weight: 1000;
     margin: 0;
 }
-
 span {
     color: #1ab188;
     font-weight: bold;
 }
-
 p {
     text-align: center;
     color: #ffffff;
     margin: 0px 0px 50px 0px;
 }
-
 div.info {
     color: pink;
     display: box;
@@ -166,7 +94,6 @@ div.info {
     border: 1px solid red;
     background: #66131c;
 }
-
 label {
   position: absolute;
   -webkit-transform: translateY(6px);
@@ -183,7 +110,6 @@ label .req {
   margin: 2px;
   color: #1ab188;
 }
-
 label.active {
   -webkit-transform: translateY(50px);
           transform: translateY(50px);
@@ -193,11 +119,9 @@ label.active {
 label.active .req {
   opacity: 0;
 }
-
 label.highlight {
   color: #ffffff;
 }
-
 input, textarea {
   font-size: 22px;
   display: block;
@@ -216,17 +140,14 @@ input:focus, textarea:focus {
   outline: 0;
   border-color: #1ab188;
 }
-
 textarea {
   border: 2px solid #a0b3b0;
   resize: vertical;
 }
-
 .field-wrap {
   position: relative;
   margin-bottom: 40px;
 }
-
 .top-row:after {
   content: "";
   display: table;
@@ -240,7 +161,6 @@ textarea {
 .top-row > div:last-child {
   margin: 0;
 }
-
 .button {
   border: 0;
   outline: none;
@@ -259,18 +179,79 @@ textarea {
 .button:hover, .button:focus {
   background: #179b77;
 }
-
 .button-block {
   display: block;
   width: 100%;
 }
-
 .forgot {
   margin-top: -20px;
   text-align: right;
 }
 
-
-
-
-
+/********************************
+CONTACT FORM CSS
+********************************/
+body{
+  font-family: "Lato", sans-serif;
+  margin: 70px 0;
+  background: #0069d6;
+}
+.devider{
+  width: 100px;
+  height: 2px;
+  background: #ffa500;
+  margin: 0 auto;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 60px;
+}
+h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+#contact-form{
+  font-size: 20px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+.blue{
+  color: #0069d6;
+}
+.form-control{
+  height: 50px;
+  font-size: 18px;
+}
+.comments{
+  height: 25px;
+  font-style: italic;
+  font-size: 18px;
+  color: #d82c2e;
+}
+#contact-form input[type=submit]{
+  margin: 40px auto 0;
+  display: block;
+}
+.button1{
+  width: 100%;
+  border: 1px solid #ddd;
+  background: #ffa500;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 18px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in 0s;
+}
+.button1:hover{
+  background: #333;
+  border-color: #ffa500;
+}
+.thank-you{
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 22px;
+}
