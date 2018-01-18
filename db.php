@@ -9,7 +9,7 @@ $username = 'root';
 /*** mysql password ***/
 $password = '';
 
-$dbname = 'Page_Form';
+$dbname = 'Form_Page';
 
 try {
 	$dbh = new PDO("mysql:host=$hostname;dbname=$dbname", $username, $password);
