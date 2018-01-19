@@ -1,22 +1,11 @@
-<?php
-/* Log out process, unsets and destroys session variables */
+ <?php
+include('config.php');
+$session_uid='';
+$_SESSION['uid']=''; 
+if(empty($session_uid) && empty($_SESSION['uid']))
+{
+$url=BASE_URL.'index.php';
+header("Location: $url");
+//echo "<script>window.location='$url'</script>";
+}
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Error</title>
-  <?php include 'css/css.html'; ?>
-</head>
-
-<body>
-    <div class="form">
-          <h1>Thanks for stopping by</h1>
-              
-          <p><?= 'You have been logged out!'; ?></p>
-          
-          <a href="index.php"><button class="button button-block"/>Home</button></a>
-
-    </div>
-</body>
-</html>
